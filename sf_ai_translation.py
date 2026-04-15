@@ -80,7 +80,6 @@ def validate_and_truncate(MainFullTranslatedKeyandLabelList):
             Validatedlist.append((key, strippedlabel))
         else:
             Validatedlist.append((key, label))
-            Validatedlist = MainFullTranslatedKeyandLabelList
     return Validatedlist
 
 
