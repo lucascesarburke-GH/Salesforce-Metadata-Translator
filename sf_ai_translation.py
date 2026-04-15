@@ -79,6 +79,7 @@ def validate_and_truncate(MainFullTranslatedKeyandLabelList):
                   label}, "exceeds 40 character SF limit and has been truncated to fit.", "Please  review this translation before uploading to Salesforce.")
             Validatedlist.append((key, strippedlabel))
         else:
+            Validatedlist.append((key, label))
             Validatedlist = MainFullTranslatedKeyandLabelList
     return Validatedlist
 
