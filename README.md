@@ -2,6 +2,7 @@ Salesforce AI Translation Tool
 
 
 Project Overview
+
 This tool automates the process of translating Salesforce Field Labels. It reads an "Outdated and untranslated" .stf file exported from the Salesforce Translation Workbench, uses AI to translate the labels while respecting Salesforce’s 40-character limit, and generates a new .stf file ready for import.
 
 Prerequisites
